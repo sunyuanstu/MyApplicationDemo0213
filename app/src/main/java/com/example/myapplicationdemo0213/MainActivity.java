@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -15,12 +16,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button button3;
     private Button button4;
     private Button button5;
+    private TextView activity_main_textview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initfindviewById();
+
     }
 
     @Override
@@ -43,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
         }
     }
+
     //注册点击事件
     private void initfindviewById() {
         button1 = findViewById(R.id.activity_main_button1);
@@ -50,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         button3 = findViewById(R.id.activity_main_button3);
         button4 = findViewById(R.id.activity_main_button4);
         button5 = findViewById(R.id.activity_main_button5);
+        activity_main_textview = findViewById(R.id.activity_main_textview);
         button1.setOnClickListener(this);
         button2.setOnClickListener(this);
         button3.setOnClickListener(this);
