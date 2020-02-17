@@ -32,8 +32,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.activity_main_button1:
                 Log.d(TAG, "onClick: activity_main_button1");
-                activity_main_textview.setText("button1点击了我");
-                activity_main_textview.setText("我被button1点击了");
                 break;
             case R.id.activity_main_button2:
                 Log.d(TAG, "onClick: activity_main_button2");
