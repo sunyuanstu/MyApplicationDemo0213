@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.activity_main_button1:
                 Log.d(TAG, "onClick: activity_main_button1");
                 activity_main_textview.setText("我是0213里面的project");
-
+                activity_main_textview.setText("我是0213里面的project");
+                activity_main_textview.setText("我是0213里面的project");
                 break;
             case R.id.activity_main_button2:
                 Log.d(TAG, "onClick: activity_main_button2");
