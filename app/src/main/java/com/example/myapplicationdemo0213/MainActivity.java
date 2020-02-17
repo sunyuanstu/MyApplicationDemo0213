@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 activity_main_textview.setText("我是0213里面的project");
                 activity_main_textview.setText("我是0217里面的project");
                 activity_main_textview.setText("我是0217里面的project");
+
+                activity_main_textview.setText("我是021717里面的project");
                 activity_main_textview.setText("我是0217里面的project");
                 break;
             case R.id.activity_main_button2:
